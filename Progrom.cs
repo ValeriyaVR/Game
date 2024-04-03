@@ -30,9 +30,12 @@ namespace Program
             
             int userX = 6; userY = 6;
 
-            for(int i = 0; i < map.(0); i++)
+            for(int i = 0; i < map.GetLength(0); i++)
             {   
-                
+                for(int j = 0; j < map.GetLength(1); j++)
+                {
+                    Console.Write(map[i,j);
+                }
 
             }
         }
