@@ -1,0 +1,15 @@
+/Users/macbook/Desktop/Game/Game/Programm/bin/Debug/net8.0/Programm
+/Users/macbook/Desktop/Game/Game/Programm/bin/Debug/net8.0/Programm.deps.json
+/Users/macbook/Desktop/Game/Game/Programm/bin/Debug/net8.0/Programm.runtimeconfig.json
+/Users/macbook/Desktop/Game/Game/Programm/bin/Debug/net8.0/Programm.dll
+/Users/macbook/Desktop/Game/Game/Programm/bin/Debug/net8.0/Programm.pdb
+/Users/macbook/Desktop/Game/Game/Programm/obj/Debug/net8.0/Programm.GeneratedMSBuildEditorConfig.editorconfig
+/Users/macbook/Desktop/Game/Game/Programm/obj/Debug/net8.0/Programm.AssemblyInfoInputs.cache
+/Users/macbook/Desktop/Game/Game/Programm/obj/Debug/net8.0/Programm.AssemblyInfo.cs
+/Users/macbook/Desktop/Game/Game/Programm/obj/Debug/net8.0/Programm.csproj.CoreCompileInputs.cache
+/Users/macbook/Desktop/Game/Game/Programm/obj/Debug/net8.0/Programm.sourcelink.json
+/Users/macbook/Desktop/Game/Game/Programm/obj/Debug/net8.0/Programm.dll
+/Users/macbook/Desktop/Game/Game/Programm/obj/Debug/net8.0/refint/Programm.dll
+/Users/macbook/Desktop/Game/Game/Programm/obj/Debug/net8.0/Programm.pdb
+/Users/macbook/Desktop/Game/Game/Programm/obj/Debug/net8.0/Programm.genruntimeconfig.cache
+/Users/macbook/Desktop/Game/Game/Programm/obj/Debug/net8.0/ref/Programm.dll
