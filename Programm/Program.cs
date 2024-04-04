@@ -33,6 +33,7 @@ namespace ProgramGame
             int userY = random.Next(1,23);
 
             Console.CursorVisible = false;
+            char[] bag = new char[1];
 
             while(true){
 
@@ -43,6 +44,12 @@ namespace ProgramGame
                         Console.Write(map[i,j]);
                     }
                     Console.WriteLine();
+                }
+                Console.SetCursorPosition(0,23);
+                Console.Write("Bag: ");
+                for(int i = 0; i < bag.Length; i++)
+                {
+                    Console.Write(bag[i] + " ");
                 }
 
                 Console.SetCursorPosition(userY,userX);
@@ -73,7 +80,31 @@ namespace ProgramGame
                         userY++;
                     }
                     break;
+
                 }
+
+                if(map[userX,userY] == '$')
+                {
+                    map[userX,userY] = 'o';
+                    char[] tempChar = new char[bag.Length + 1];
+                    for(int i = 0; i < bag.Length; i++)
+                    {
+                        tempChar[i] = bag[i];
+                    }
+                    tempChar[tempChar.Length - 1] = '$';
+                    bag = tempChar;
+                } 
+
+                if (bag.Length == 9)
+                {
+                    Console.SetCursorPosition(0,20);
+                    Console.WriteLine("Congratulations! You won!");
+                    map[0,1] = ' ';
+                    map[0,2] = ' ';
+                    map[0,3] = ' ';
+
+                }
+
                 Console.ReadKey();
                 Console.Clear();
 
